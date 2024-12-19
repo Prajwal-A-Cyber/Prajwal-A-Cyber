@@ -15,26 +15,13 @@ Expertise in security operations, incident response, and threat analysis.
 📂 Projects
 
 🛡️ SIEM Rule Optimization for Accurate Threat Detection
-Overview: Improved threat detection accuracy and minimized false positives by optimizing SIEM configurations.
-Key Features:
-Created tailored rules for better log correlation and threat identification.
-Integrated multiple data sources to enhance SIEM capabilities.
-Reduced false positives by 40%, ensuring focus on critical threats.
-Impact: Improved the overall efficiency of security operations and reduced alert fatigue.
+
 
 🔍 Network Traffic Analysis and Vulnerability Assessment (Home Lab)
-Overview: Created a home lab to analyze network traffic and assess system vulnerabilities.
-Key Features:
-Used Wireshark to detect anomalies and analyze packet flows.
-Simulated network environments with VirtualBox for testing.
-Conducted vulnerability assessments with Nessus and provided remediation recommendations.
+
 
 🛡️ Phishing Awareness and IT Support FAQ
-Overview: Conducted phishing awareness training and developed an IT support FAQ to enhance security and support efficiency.
-Key Features:
-Trained 100+ employees to identify phishing emails, reducing phishing incidents by 35%.
-Documented client issues and created a comprehensive FAQ for faster ticket resolution.
-Improved IT support efficiency, reducing resolution times by 20%.
+
 
 🎓 Certifications
 CompTIA Security+
