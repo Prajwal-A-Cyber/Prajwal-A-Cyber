@@ -1,0 +1,79 @@
+# Wireshark Home Lab: Filtering and TCP Handshake Exploration
+
+## Overview
+In this project, I used Wireshark to learn the basics of network analysis. The key focus areas were:
+- Using filters to analyze specific traffic
+- Understanding the TCP Handshake process
+- Observing and interpreting TCP acknowledgment (ACK) packets
+
+## What You'll Learn
+- How to apply Wireshark filters effectively
+- Understand the steps of the TCP Handshake
+- Gain insights into TCP ACK packets
+
+## Prerequisites
+To follow along, you will need:
+- Wireshark installed on your system
+- A basic understanding of how networks operate
+
+## Step-by-Step Guide
+
+### 1. Capturing Network Traffic
+1. Open Wireshark and start a live capture on your active network interface.
+2. Visit any website (e.g., `example.com`) to generate traffic.
+3. Stop the capture after a few seconds.
+
+**Screenshot:**
+
+
+### 2. Using Filters to Analyze Traffic
+1. To filter HTTP traffic, use the following filter:
+   ```
+   http
+   ```
+2. For TCP-specific traffic, use:
+   ```
+   tcp
+   ```
+3. Apply these filters in the Wireshark filter bar and observe the results.
+
+**Screenshot:**
+![HTTP Filter](screenshots/http_filter.png)
+
+### 3. Analyzing the TCP Handshake
+1. Search for a TCP connection in the capture.
+2. Look for the three steps of the handshake:
+   - **SYN**: The client sends a synchronization packet.
+   - **SYN-ACK**: The server acknowledges and responds.
+   - **ACK**: The client confirms.
+3. Highlight these packets in the packet list and observe the details in the lower pane.
+
+**Screenshot:**
+![TCP Handshake](screenshots/tcp_handshake.png)
+
+### 4. Observing TCP ACK Packets
+1. Use a filter to focus on ACK packets:
+   ```
+   tcp.flags.ack == 1
+   ```
+2. Identify how acknowledgment works for reliable data transfer.
+
+**Screenshot:**
+![TCP ACK](screenshots/tcp_ack.png)
+
+## Results
+- Successfully filtered traffic to isolate HTTP and TCP connections.
+- Visualized the TCP Handshake process step-by-step.
+- Analyzed TCP ACK packets to understand their role in reliable communication.
+
+## Challenges and Learnings
+- **Challenge:** Initially, understanding the filter syntax was tricky.
+  - **Solution:** Referring to Wireshark's built-in filter reference helped.
+- Learned the importance of filtering to focus on specific data in large captures.
+
+## Conclusion
+This project provided a foundational understanding of Wireshark's capabilities, focusing on filtering, the TCP Handshake, and TCP ACK packets. It’s an excellent starting point for anyone new to network analysis.
+
+---
+
+Created by Prajwal Adhikari
