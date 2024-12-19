@@ -17,7 +17,9 @@ Expertise in security operations, incident response, and threat analysis.
 🛡️ SIEM Rule Optimization for Accurate Threat Detection
 
 
-🔍 Network Traffic Analysis and Vulnerability Assessment (Home Lab)
+🔍 Vulnerability Assessment (Home Lab)
+
+🔍 Network Traffic Analysis (Home Lab)
 
 
 🛡️ Phishing Awareness and IT Support FAQ
